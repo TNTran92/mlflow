@@ -323,5 +323,6 @@ class _sktimeWrapper:
 
     def predict(self, dataframe):
         return self.sktime_model.predict(
-            fh = 
+            fh = None
         )
+        return None 
